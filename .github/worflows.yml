@@ -23,10 +23,10 @@ jobs:
      name: Analyze with SonarCloud
   uses: sonarsource/sonarcloud-github-action@master
   with:
-    projectBaseDir: my-custom-directory
+    projectBaseDir: C:\Users\clem\OneDrive - Campus Academy\Documents\Campus academy\TP\flemme
     args: >
-      -Dsonar.organization=my-organization
-      -Dsonar.projectKey=my-projectkey
+      -Dsonar.organization=clement
+      -Dsonar.projectKey=clement
       -Dsonar.python.coverage.reportPaths=coverage.xml
       -Dsonar.sources=lib/
       -Dsonar.test.exclusions=tests/**
